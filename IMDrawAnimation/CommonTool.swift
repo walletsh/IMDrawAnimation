@@ -7,3 +7,7 @@
 //
 
 import Foundation
+import UIKit
+
+let screenW = UIScreen.main.bounds.size.width
+let screenH = UIScreen.main.bounds.size.height

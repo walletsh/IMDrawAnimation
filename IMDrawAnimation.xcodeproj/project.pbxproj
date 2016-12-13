@@ -12,6 +12,8 @@
 		EEA9B8381DFFCF010025E4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA9B8361DFFCF010025E4EF /* Main.storyboard */; };
 		EEA9B83A1DFFCF010025E4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA9B8391DFFCF010025E4EF /* Assets.xcassets */; };
 		EEA9B83D1DFFCF010025E4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA9B83B1DFFCF010025E4EF /* LaunchScreen.storyboard */; };
+		EEA9B8451DFFD9650025E4EF /* IMMusicBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9B8441DFFD9650025E4EF /* IMMusicBarViewController.swift */; };
+		EEA9B8471DFFDAA90025E4EF /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9B8461DFFDAA90025E4EF /* CommonTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EEA9B8391DFFCF010025E4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA9B83C1DFFCF010025E4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEA9B83E1DFFCF010025E4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA9B8441DFFD9650025E4EF /* IMMusicBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMusicBarViewController.swift; sourceTree = "<group>"; };
+		EEA9B8461DFFDAA90025E4EF /* CommonTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				EEA9B8321DFFCF010025E4EF /* AppDelegate.swift */,
+				EEA9B8461DFFDAA90025E4EF /* CommonTool.swift */,
 				EEA9B8341DFFCF010025E4EF /* ViewController.swift */,
+				EEA9B8441DFFD9650025E4EF /* IMMusicBarViewController.swift */,
 				EEA9B8361DFFCF010025E4EF /* Main.storyboard */,
 				EEA9B8391DFFCF010025E4EF /* Assets.xcassets */,
 				EEA9B83B1DFFCF010025E4EF /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				EEA9B8351DFFCF010025E4EF /* ViewController.swift in Sources */,
 				EEA9B8331DFFCF010025E4EF /* AppDelegate.swift in Sources */,
+				EEA9B8471DFFDAA90025E4EF /* CommonTool.swift in Sources */,
+				EEA9B8451DFFD9650025E4EF /* IMMusicBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,8 +27,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -41,7 +39,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 extension ViewController{
     
     fileprivate func setupData() {
-        dataArray.append("musicBar")
+        dataArray.append("MusicBar")
+        dataArray.append("WaterPulse")
     }
     
     fileprivate func setupUI() {
@@ -78,6 +77,8 @@ extension ViewController{
         switch indexPath.row {
         case 0:
             self.navigationController?.pushViewController(IMMusicBarViewController(), animated: true)
+        case 1:
+            self.navigationController?.pushViewController(IMWaterPulseViewController(), animated: true)
         default: break
             
         }

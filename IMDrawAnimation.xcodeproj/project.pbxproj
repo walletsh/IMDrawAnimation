@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE7550281DFFE750008BF490 /* IMWaterPulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7550271DFFE750008BF490 /* IMWaterPulseViewController.swift */; };
+		EE75502A1DFFE7E6008BF490 /* IMWaterPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7550291DFFE7E6008BF490 /* IMWaterPulseView.swift */; };
+		EE75502C1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75502B1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift */; };
 		EEA9B8331DFFCF010025E4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9B8321DFFCF010025E4EF /* AppDelegate.swift */; };
 		EEA9B8351DFFCF010025E4EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9B8341DFFCF010025E4EF /* ViewController.swift */; };
 		EEA9B8381DFFCF010025E4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA9B8361DFFCF010025E4EF /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE7550271DFFE750008BF490 /* IMWaterPulseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMWaterPulseViewController.swift; sourceTree = "<group>"; };
+		EE7550291DFFE7E6008BF490 /* IMWaterPulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMWaterPulseView.swift; sourceTree = "<group>"; };
+		EE75502B1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMPulseAnimationLayer.swift; sourceTree = "<group>"; };
 		EEA9B82F1DFFCF010025E4EF /* IMDrawAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDrawAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA9B8321DFFCF010025E4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEA9B8341DFFCF010025E4EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +68,9 @@
 				EEA9B8461DFFDAA90025E4EF /* CommonTool.swift */,
 				EEA9B8341DFFCF010025E4EF /* ViewController.swift */,
 				EEA9B8441DFFD9650025E4EF /* IMMusicBarViewController.swift */,
+				EE7550271DFFE750008BF490 /* IMWaterPulseViewController.swift */,
+				EE7550291DFFE7E6008BF490 /* IMWaterPulseView.swift */,
+				EE75502B1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift */,
 				EEA9B8361DFFCF010025E4EF /* Main.storyboard */,
 				EEA9B8391DFFCF010025E4EF /* Assets.xcassets */,
 				EEA9B83B1DFFCF010025E4EF /* LaunchScreen.storyboard */,
@@ -142,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE75502A1DFFE7E6008BF490 /* IMWaterPulseView.swift in Sources */,
+				EE7550281DFFE750008BF490 /* IMWaterPulseViewController.swift in Sources */,
 				EEA9B8351DFFCF010025E4EF /* ViewController.swift in Sources */,
 				EEA9B8331DFFCF010025E4EF /* AppDelegate.swift in Sources */,
+				EE75502C1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift in Sources */,
 				EEA9B8471DFFDAA90025E4EF /* CommonTool.swift in Sources */,
 				EEA9B8451DFFD9650025E4EF /* IMMusicBarViewController.swift in Sources */,
 			);
@@ -305,6 +317,7 @@
 				EEA9B8431DFFCF010025E4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

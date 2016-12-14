@@ -14,6 +14,8 @@ class IMMusicBarViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.white
+        title = "音乐"
         
         startAnimation()
     }

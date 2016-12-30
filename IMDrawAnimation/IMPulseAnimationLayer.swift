@@ -127,6 +127,7 @@ extension IMPulseAnimationLayer{
         opacityAnimation.keyTimes = [0, 0.5, 1]
         
         animationGroup.isRemovedOnCompletion = true
+        animationGroup.fillMode = kCAFillModeForwards
         animationGroup.animations = [scaleAnimation , opacityAnimation]
         containerLayer.add(animationGroup, forKey: "pulse")
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1CC6C11E1B8FCB001CF07E /* CustomActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CC6C01E1B8FCB001CF07E /* CustomActionSheet.swift */; };
+		EE1CC6C31E1B9D78001CF07E /* IMHearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CC6C21E1B9D78001CF07E /* IMHearView.swift */; };
+		EE1CC6C51E1BAA4C001CF07E /* IMHeardAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CC6C41E1BAA4C001CF07E /* IMHeardAnimationViewController.swift */; };
 		EE7550281DFFE750008BF490 /* IMWaterPulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7550271DFFE750008BF490 /* IMWaterPulseViewController.swift */; };
 		EE75502A1DFFE7E6008BF490 /* IMWaterPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7550291DFFE7E6008BF490 /* IMWaterPulseView.swift */; };
 		EE75502C1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75502B1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1CC6C01E1B8FCB001CF07E /* CustomActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActionSheet.swift; sourceTree = "<group>"; };
+		EE1CC6C21E1B9D78001CF07E /* IMHearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMHearView.swift; sourceTree = "<group>"; };
+		EE1CC6C41E1BAA4C001CF07E /* IMHeardAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMHeardAnimationViewController.swift; sourceTree = "<group>"; };
 		EE7550271DFFE750008BF490 /* IMWaterPulseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMWaterPulseViewController.swift; sourceTree = "<group>"; };
 		EE7550291DFFE7E6008BF490 /* IMWaterPulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMWaterPulseView.swift; sourceTree = "<group>"; };
 		EE75502B1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMPulseAnimationLayer.swift; sourceTree = "<group>"; };
@@ -75,11 +81,14 @@
 				EEA9B8461DFFDAA90025E4EF /* CommonTool.swift */,
 				EEA9B8341DFFCF010025E4EF /* ViewController.swift */,
 				EEA9B8441DFFD9650025E4EF /* IMMusicBarViewController.swift */,
+				EE1CC6C01E1B8FCB001CF07E /* CustomActionSheet.swift */,
 				EE7550271DFFE750008BF490 /* IMWaterPulseViewController.swift */,
 				EE7550291DFFE7E6008BF490 /* IMWaterPulseView.swift */,
 				EE75502B1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift */,
 				EE8012A41E15FA6B009E72BA /* IMCellAnimationViewController.swift */,
 				EE8012A61E15FAA0009E72BA /* IMAnimationCell.swift */,
+				EE1CC6C21E1B9D78001CF07E /* IMHearView.swift */,
+				EE1CC6C41E1BAA4C001CF07E /* IMHeardAnimationViewController.swift */,
 				EEA9B8361DFFCF010025E4EF /* Main.storyboard */,
 				EEA9B8391DFFCF010025E4EF /* Assets.xcassets */,
 				EEA9B83B1DFFCF010025E4EF /* LaunchScreen.storyboard */,
@@ -160,12 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1CC6C31E1B9D78001CF07E /* IMHearView.swift in Sources */,
+				EE1CC6C11E1B8FCB001CF07E /* CustomActionSheet.swift in Sources */,
 				EE75502A1DFFE7E6008BF490 /* IMWaterPulseView.swift in Sources */,
 				EE8012A51E15FA6B009E72BA /* IMCellAnimationViewController.swift in Sources */,
 				EE7550281DFFE750008BF490 /* IMWaterPulseViewController.swift in Sources */,
 				EEA9B8351DFFCF010025E4EF /* ViewController.swift in Sources */,
 				EEA9B8331DFFCF010025E4EF /* AppDelegate.swift in Sources */,
 				EE8012A71E15FAA0009E72BA /* IMAnimationCell.swift in Sources */,
+				EE1CC6C51E1BAA4C001CF07E /* IMHeardAnimationViewController.swift in Sources */,
 				EE75502C1DFFF9A7008BF490 /* IMPulseAnimationLayer.swift in Sources */,
 				EEA9B8471DFFDAA90025E4EF /* CommonTool.swift in Sources */,
 				EEA9B8451DFFD9650025E4EF /* IMMusicBarViewController.swift in Sources */,

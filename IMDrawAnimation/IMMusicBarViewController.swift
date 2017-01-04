@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IMMusicBarViewController: UIViewController {
+class IMMusicBarViewController: UIViewController, CustomActionSheetDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,21 @@ class IMMusicBarViewController: UIViewController {
         
         startAnimation()
     }
-
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let sheet = CustomActionSheet(title: "CustomActionSheet", otherTitles: ["actionOne", "actionTwo", "actionThree", "actionFour", "actionFive"])
+        sheet.delegate = self
+        sheet.cancelTitle = "取消"
+        sheet.show()
+    }
+    
+    func sheet(_ sheet: CustomActionSheet, clickButtonAt index: Int) {
+        print("clickButtonAt \(index)")
+    }
+    
+    //    func cancelButtonClick(_ sheet: CustomActionSheet) {
+    //        print("cancelButtonClick")
+    //    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

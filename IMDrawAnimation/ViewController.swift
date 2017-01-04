@@ -42,6 +42,7 @@ extension ViewController{
         dataArray.append("MusicBar")
         dataArray.append("WaterPulse")
         dataArray.append("CellAnimation")
+        dataArray.append("HeartViewAnimation")
     }
     
     fileprivate func setupUI() {
@@ -82,6 +83,8 @@ extension ViewController{
             self.navigationController?.pushViewController(IMWaterPulseViewController(), animated: true)
         case 2:
             self.navigationController?.pushViewController(IMCellAnimationViewController(), animated: true)
+        case 3:
+            self.navigationController?.pushViewController(IMHeardAnimationViewController(), animated: true)
         default: break
             
         }

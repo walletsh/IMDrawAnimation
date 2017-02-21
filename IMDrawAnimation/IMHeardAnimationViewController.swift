@@ -25,6 +25,21 @@ class IMHeardAnimationViewController: UIViewController {
         long.minimumPressDuration = 0.2
         view.addGestureRecognizer(long)
         // Do any additional setup after loading the view.
+        
+        
+        let delayButton = IMDelayButton(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
+        delayButton.center = view.center
+        delayButton.addTarget(self, action: #selector(delayButtonCilick(_:)), for: .touchUpInside)
+        delayButton.setTitle("重复点击", for: .normal)
+        delayButton.backgroundColor = UIColor.randomColor()
+        delayButton.delayDuration = 2.0
+        view.addSubview(delayButton)
+        
+    }
+    
+    @objc fileprivate func delayButtonCilick(_ sender: IMDelayButton) {
+        print("sender cilick time is \(sender.delayDuration)")
+        sender.backgroundColor = UIColor.randomColor()
     }
 
     override func didReceiveMemoryWarning() {
